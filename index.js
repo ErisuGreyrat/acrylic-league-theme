@@ -26,6 +26,7 @@ You have to update this theme yourself, manually downloading a new release.
 /* apply the acrylic effect */
 window.Effect.apply('unified', { color: "#000000DA" });
 
+import "./button.js";
 
 /* Import the local theme file */
 import "./theme.css";
@@ -46,3 +47,4 @@ observer.subscribeToElementCreation('lol-parties-game-invite', (element) => {
     shadow_dom.lobby_invite_css(element)
 
 })
+

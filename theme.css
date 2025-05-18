@@ -72,29 +72,26 @@ display: none !important; */
 
 /* Hover mouse to show */
 
-/* Chat, missions, league-voice buttons and version info, bottom right */
-.alpha-version-panel {
+/* .style-profile-skin-picker-button {
+   opacity: 0;
+   transition: 0.2s !important;
+}
+
+.style-profile-skin-picker-button:hover {
+   opacity: 1;
+   transition: 0.2s !important;
+}
+
+.invite-info-panel-container {
    opacity: 0 !important;
    transition: 0.2s !important;
 }
 
-.alpha-version-panel:hover {
+.invite-info-panel-container:hover {
    opacity: 1 !important;
    transition: 0.2s !important;
 }
 
-/* Generic selector for all navigation menu items */
-.main-navigation-menu-item {
-   opacity: 0 !important;
-   transition: 0.2s !important;
-}
-
-.main-navigation-menu-item:hover {
-   opacity: 1 !important;
-   transition: 0.2s !important;
-}
-
-/* Play button, top of screen */
 .play-button-container {
    opacity: 0 !important;
    transition: 0.2s !important;
@@ -105,17 +102,25 @@ display: none !important; */
    transition: 0.2s !important;
 }
 
-
-/* Party invite menu, next to play button */
-.invite-info-panel-container {
+.main-navigation-menu-item {
    opacity: 0 !important;
    transition: 0.2s !important;
 }
 
-.invite-info-panel-container:hover {
+.main-navigation-menu-item:hover {
    opacity: 1 !important;
    transition: 0.2s !important;
 }
+
+.alpha-version-panel {
+   opacity: 0 !important;
+   transition: 0.2s !important;
+}
+
+.alpha-version-panel:hover {
+   opacity: 1 !important;
+   transition: 0.2s !important;
+} */
 
 /* Leven xp ring, user icon, top right corner */
 .xp-ring {
@@ -173,17 +178,6 @@ display: none !important; */
 }
 
 .summoner-xp-radial-container:hover {
-   opacity: 1;
-   transition: 0.2s !important;
-}
-
-/* Profile background change button, profile page */
-.style-profile-skin-picker-button {
-   opacity: 0;
-   transition: 0.2s !important;
-}
-
-.style-profile-skin-picker-button:hover {
    opacity: 1;
    transition: 0.2s !important;
 }
