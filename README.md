@@ -22,7 +22,7 @@ A super cute League of Legends client theme, forked from [egirlcatnip's acrylic-
 - Fixes for masteries, profile-match history gold, and inventory-spells tab.
 - Windows 11 transparency effects (enable in system settings for best vibes).
 - Low Spec Mode in Pengu Loader for smoother performance.
-- Works great with my [Background Customizer](https://github.com/ErisuGreyrat/Pengu-Background-Customizer)
+- Works great with my [Background Customizer](https://github.com/ErisuGreyrat/Pengu-Background-Customizer).
 
 ## Known Issues
 - **Windows 10 lag**: Enable Low Spec Mode in Pengu Loader for now.
