@@ -1,12 +1,12 @@
 /* Acrylic League of legends client theme */
-/* Adjusted by Erisu from Egirl's acrylic theme */
+/* Adjusted by Erisu from egirlcatnip's acrylic theme */
 
-/* Version: 1.8 */
+/* Version: 1.8.1 */
 
 /* credits: @aimslut(discord), @egirlcatnip(discord), @unproductive(discord) */
 
-/* this source: https://github.com/PrincessAkira/league-launcher-theme/tree/main/Acrylical    */
-/* Egirls's source: https://github.com/PrincessAkira/league-launcher-theme/tree/main/Acrylical */
+/* Egirl's source: https://github.com/PrincessAkira/league-launcher-theme/tree/main/Acrylical    */
+/* Sarah's source: https://github.com/PrincessAkira/league-launcher-theme/tree/main/Acrylical */
 
 
 /* Settings section */
@@ -301,9 +301,6 @@ display: none !important; */
 
 [class*="activity-center"] {
     background-color: transparent !important;
-    background: transparent !important;
-    backdrop-filter: none !important;
-    filter: none !important;
 }
 
 .rcp-fe-lol-tft-application-background:not(.tft-troves-v2-background) {
@@ -897,6 +894,8 @@ lol-uikit-full-page-modal>span>div {
    background: none !important;
 }
 
+/* LoR button */
 
-
-/* End of general theming section */
+.deep-links-promo {
+   display: none !important;
+}
