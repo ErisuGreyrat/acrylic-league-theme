@@ -15,7 +15,8 @@ A super cute League of Legends client theme, forked from [egirlcatnip's acrylic-
 2. Create a folder (e.g., `theme`) in Pengu Loader’s plugin directory.
 3. Clone this repo or download the `.js` and `.css` files.
 4. Place the files in your folder.
-5. Activate the theme in Pengu Loader.
+5. Rename theme.css to use with or without hover
+6. Activate the theme in Pengu Loader.
 
 ## Features
 - Customized from egirlcatnip’s acrylic theme with Erisu’s unique touches.
