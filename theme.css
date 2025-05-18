@@ -1,12 +1,12 @@
 /* Acrylic League of legends client theme */
-/* Adjusted by egirlcatnip from Sarah's acrylic theme */
+/* Adjusted by Erisu from Egirl's acrylic theme */
 
-/* Version: 1.6 */
+/* Version: 1.8 */
 
 /* credits: @aimslut(discord), @egirlcatnip(discord), @unproductive(discord) */
 
 /* this source: https://github.com/PrincessAkira/league-launcher-theme/tree/main/Acrylical    */
-/* Sarah's source: https://github.com/PrincessAkira/league-launcher-theme/tree/main/Acrylical */
+/* Egirls's source: https://github.com/PrincessAkira/league-launcher-theme/tree/main/Acrylical */
 
 
 /* Settings section */
@@ -34,11 +34,16 @@
 
 /* Tweaks: */
 
-/* Show only Blue essence, hide riot-points  */
+/* Show only Blue essence, hide riot-points 
+display: none !important; */
 .currency-rp-container-top-up-enabled {
-   display: none !important;
+   background-color: transparent !important;
+   border: none !important;
 }
 
+.currency-rp-top-up {
+   display: none !important;
+}
 /* Purple lobby buttons */
 .find-match-button-container,
 .role-selectors-container,
@@ -65,7 +70,6 @@
    display: none !important
 }
 
-
 /* Hover mouse to show */
 
 /* Chat, missions, league-voice buttons and version info, bottom right */
@@ -79,16 +83,28 @@
    transition: 0.2s !important;
 }
 
-/* Teamfight Tactics button, top of screen */
-.menu_item_navbar_tft {
+/* Generic selector for all navigation menu items */
+.main-navigation-menu-item {
    opacity: 0 !important;
    transition: 0.2s !important;
 }
 
-.menu_item_navbar_tft:hover {
+.main-navigation-menu-item:hover {
    opacity: 1 !important;
    transition: 0.2s !important;
 }
+
+/* Play button, top of screen */
+.play-button-container {
+   opacity: 0 !important;
+   transition: 0.2s !important;
+}
+
+.play-button-container:hover {
+   opacity: 1 !important;
+   transition: 0.2s !important;
+}
+
 
 /* Party invite menu, next to play button */
 .invite-info-panel-container {
@@ -266,7 +282,6 @@
 #ember7563,
 .loading-tab::after,
 .loot-milestones-tracker-wrapper,
-.rcp-fe-lol-tft-application-background,
 .tft-home-footer-bg,
 .tft-hub-footer-bg,
 .event-shop-index,
@@ -282,6 +297,18 @@
    background: transparent !important;
    backdrop-filter: none !important;
    filter: none !important;
+}
+
+[class*="activity-center"] {
+    background-color: transparent !important;
+    background: transparent !important;
+    backdrop-filter: none !important;
+    filter: none !important;
+}
+
+.rcp-fe-lol-tft-application-background:not(.tft-troves-v2-background) {
+    background-image: none !important;
+    background: none !important;
 }
 
 body,
@@ -710,6 +737,9 @@ lol-uikit-full-page-modal>span>div {
 .clash-social-persistent-content>img {
    display: none !important;
 }
+.clash-arurf-intro-modal{
+   display: none !important;
+}
 
 .clash-roster-details {
    background: none !important;
@@ -781,12 +811,41 @@ lol-uikit-full-page-modal>span>div {
    border-top: none !important;
    position: relative !important;
    top: -221px !important;
-   left: 12px !important;
+   left: 9px !important;
 }
 
-.champion-mastery-badge-container > img {
-   width: 40px !important;
-   height: 40px !important;
+.champion-mastery-badge-container {
+   width: 32px !important;
+}
+
+.legendary-champion-mastery-collection-header {
+   left: 262px;
+   background: none !important;
+}
+
+.set-arrow-container.left,
+.set-arrow-container.right {
+    background-image: none !important;
+}
+
+.set-completed-overlay {
+   background: none !important;
+}
+
+.set-overlay.left {
+   background: none !important;
+}
+
+.set-overlay.right {
+   background: none !important;
+}
+
+.set-tracker-scrollable-arrow-right {
+   right: -30px !important;
+}
+
+.season-bg {
+   background: none !important;
 }
 
 .eternals-description-container {
@@ -794,22 +853,49 @@ lol-uikit-full-page-modal>span>div {
 }
 
 .info-badge-wrapper {
-   top: 2px !important;
-   left: 84px !important;
+   top: 0px !important;
+   left: 86px !important;
 }
+
+.moon-skin-backdrop{
+   background: none !important;
+}
+
+.shoppefront-background{
+   display: none !important;
+}
+
+.lcm-champion-banner.no-mastery{
+   display: none !important;
+}
+
+/* Emote Wheel */
+
+.emote-reaction-wrapper .emote-tray__ace, .emote-reaction-wrapper .emote-tray__firstBlood, .emote-reaction-wrapper .emote-tray__start, .emote-reaction-wrapper .emote-tray__victory {
+   background: none !important;
+}
+
+/* Missions */
+
+.mission-tracker-component {
+   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8) 93%) !important;
+   border-radius: 10px !important;
+}
+
+.mission-completed-button {
+   opacity: 0.5 !important;
+   border-bottom-left-radius: 10px !important;
+}
+
+.mission-tray-header {
+   background: none !important;
+}
+
+/* Chrome background */
 
 .inventory-item-image-container {
    background: none !important;
 }
-
-.clash-trophy-border-wrapper, .clash-banner-border-wrapper {
-   display:none;
-}
-.deep-links-promo {
-   display: none !important 
-}
-
-
 
 
 
