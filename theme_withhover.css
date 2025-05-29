@@ -899,3 +899,9 @@ lol-uikit-full-page-modal>span>div {
 .rcp-fe-lol-navigation-app .navbar_backdrop {
     backdrop-filter: none !important;
 }
+
+/* Party position Fix*/
+
+#ember10585 {
+    top: 0px !important;
+}
